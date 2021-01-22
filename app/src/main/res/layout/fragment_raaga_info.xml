@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="raagaInfoViewModel"
+            type="com.example.raaga.raagaInfo.RaagaInfoFragmentViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/playerInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/secondaryColor"
+        tools:context=".raagaInfo.RaagaInfoFragment">
+
+        <com.example.raaga.media.MediaSeekBar
+            android:id="@+id/mediaSeekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:progressTint="@color/primaryDarkColor"
+            app:layout_constraintBottom_toTopOf="@+id/raga_id"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/raga_id"
+            style="@style/samay_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:text="@{raagaInfoViewModel.raga_id}"
+            app:layout_constraintBottom_toTopOf="@+id/samay_id"
+            app:layout_constraintEnd_toEndOf="@+id/samay_id"
+            app:layout_constraintStart_toStartOf="@+id/samay_id"
+            tools:text="@string/raga_name" />
+
+        <TextView
+            android:id="@+id/samay_id"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@{raagaInfoViewModel.samay_id}"
+            app:layout_constraintBottom_toTopOf="@+id/play_pause_button"
+            app:layout_constraintEnd_toEndOf="@+id/play_pause_button"
+            app:layout_constraintStart_toStartOf="@+id/play_pause_button"
+            tools:text="@string/samay_list_title" />
+
+        <ImageButton
+            android:id="@+id/play_pause_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/exo_controls_play_description"
+            android:onClick="@{() -> raagaInfoViewModel.playPause()}"
+            android:tint="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/skip_to_previous_button"
+            app:layout_constraintEnd_toStartOf="@+id/skip_to_next_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/skip_to_previous_button"
+            app:layout_constraintTop_toTopOf="@+id/skip_to_previous_button"
+            app:srcCompat="@drawable/exo_controls_play" />
+
+        <ImageButton
+            android:id="@+id/skip_to_previous_button"
+            android:onClick="@{() -> raagaInfoViewModel.skipToPrevious()}"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:contentDescription="@string/exo_controls_previous_description"
+            android:tint="#000000"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/play_pause_button"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/exo_controls_previous" />
+
+        <ImageButton
+            android:id="@+id/skip_to_next_button"
+            android:layout_width="wrap_content"
+            android:onClick="@{() -> raagaInfoViewModel.skipToNext()}"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/exo_controls_next_description"
+            android:tint="#000000"
+            app:layout_constraintBottom_toBottomOf="@+id/play_pause_button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/play_pause_button"
+            app:layout_constraintTop_toTopOf="@+id/play_pause_button"
+            app:srcCompat="@drawable/exo_controls_next" />
+
+        <ImageView
+            android:id="@+id/album_art"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:alpha="0.7"
+            android:background="@color/primaryColor"
+            android:contentDescription="@string/app_name"
+            android:fadingEdge="horizontal|vertical"
+            app:layout_constraintBottom_toTopOf="@+id/mediaSeekbar"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/currentProgress"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mediaSeekbar"
+            tools:text="@string/from_time"
+            android:text="@{raagaInfoViewModel.MSeekProgress}"/>
+
+        <TextView
+            android:id="@+id/maxProgress"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mediaSeekbar"
+            tools:text="@string/to_time"
+            android:text="@{raagaInfoViewModel.MSeekMax}"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

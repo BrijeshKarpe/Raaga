@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="landingFragmentViewModel"
+            type="com.example.raaga.landing.LandingFragmentViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/button_padding"
+        tools:context=".landing.LandingFragment"
+        android:background="@color/secondaryColor">
+
+        <TextView
+            android:id="@+id/current_raaga"
+            style="@style/title_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:text="@{landingFragmentViewModel.currentRaga}"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/title_raaga" />
+
+        <TextView
+            android:id="@+id/from_time"
+            style="@style/description_style"
+            android:fontFamily="@font/roboto"
+            android:text="@{@string/from_format(landingFragmentViewModel.timeFrom)}"
+
+            app:layout_constraintBottom_toTopOf="@+id/to_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/current_raaga"
+            tools:text="@string/from_time" />
+
+        <TextView
+            android:id="@+id/to_time"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{@string/to_format(landingFragmentViewModel.timeTo)}"
+
+            app:layout_constraintBottom_toBottomOf="@+id/current_raaga"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/from_time"
+            tools:text="@string/to_time" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/raga_list"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/current_raaga" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/currentPlaylist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:backgroundTint="@color/secondaryDarkColor"
+            android:clickable="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/ic_playlist_play_24px"
+            android:onClick="@{() -> landingFragmentViewModel.showCurrentPlaylist()}"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/landingFragment">
+
+    <fragment
+        android:id="@+id/landingFragment"
+        android:name="com.example.raaga.landing.LandingFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_landing" >
+        <action
+            android:id="@+id/action_landingFragment_to_raagaInfoFragment"
+            app:destination="@id/raagaInfoFragment"
+            app:popUpTo="@id/landingFragment"
+            app:popUpToInclusive="false" />
+        <action
+            android:id="@+id/action_landingFragment_to_raagasFragment"
+            app:destination="@id/raagasFragment"
+            app:popUpTo="@id/landingFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.raaga.about.AboutFragment"
+        android:label="@string/about" />
+    <fragment
+        android:id="@+id/praharsFragment"
+        android:name="com.example.raaga.prahars.PraharsFragment"
+        android:label="@string/prahars" >
+        <action
+            android:id="@+id/action_praharsFragment_to_raagasFragment"
+            app:destination="@id/raagasFragment"
+            app:popUpTo="@id/praharsFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/raagasFragment"
+        android:name="com.example.raaga.raagas.RaagasFragment"
+        android:label="@string/raagas" >
+        <argument
+            android:name="samayId"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_raagasFragment_to_raagaInfoFragment"
+            app:destination="@id/raagaInfoFragment"
+            app:popUpTo="@id/raagasFragment"
+            app:popUpToInclusive="false" />
+    </fragment>
+    <fragment
+        android:id="@+id/raagaInfoFragment"
+        android:name="com.example.raaga.raagaInfo.RaagaInfoFragment"
+        android:label="@string/raaga_info" >
+        <argument
+            android:name="raga_key"
+            app:argType="string" />
+        <argument
+            android:name="samay_key"
+            app:argType="string" />
+    </fragment>
+</navigation>

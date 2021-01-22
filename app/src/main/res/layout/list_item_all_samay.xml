@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="bindingSamay"
+            type="com.example.raaga.data.Samay" />
+
+        <variable
+            name="clickListener"
+            type="com.example.raaga.prahars.PraharsListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/horizontal_margin"
+        android:padding="@dimen/samay_padding"
+        android:onClick="@{() -> clickListener.onClick(bindingSamay)}"
+        android:background="@color/secondaryLightColor">
+
+
+        <TextView
+            android:id="@+id/samay_name"
+            style="@style/samay_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/samay_number"
+            app:layout_constraintTop_toTopOf="parent"
+            app:samayName="@{bindingSamay}"
+            tools:text="@string/title_raaga" />
+
+        <TextView
+            android:id="@+id/from_time"
+            style="@style/description_style"
+            android:layout_width="@dimen/to_width"
+            android:layout_height="wrap_content"
+            app:fromTime="@{bindingSamay}"
+            app:layout_constraintBottom_toTopOf="@+id/to_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/samay_name"
+            tools:text="@string/from_time" />
+
+        <TextView
+            android:id="@+id/to_time"
+            style="@style/description_style"
+            android:layout_width="@dimen/to_width"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/samay_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/from_time"
+            app:toTime="@{bindingSamay}"
+            tools:text="@string/to_time" />
+
+        <TextView
+            android:id="@+id/samay_number"
+            style="@style/samay_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:samayNumber="@{bindingSamay}"
+            tools:text="@string/samay_number" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

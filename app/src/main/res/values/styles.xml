@@ -1,0 +1,50 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorPrimaryVariant">@color/primaryLightColor</item>
+        <item name="colorOnPrimary">@color/primaryTextColor</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+        <item name="colorSecondaryVariant">@color/secondaryDarkColor</item>
+        <item name="colorOnSecondary">@color/secondaryTextColor</item>
+<!--        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>-->
+    </style>
+
+    <style name="title_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:padding">@dimen/title_padding</item>
+        <item name="android:textSize">@dimen/title_font_size</item>
+
+    </style>
+    <style name="TextAppearance.Uamp.Title" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="TextAppearance.Uamp.Subtitle" parent="@style/TextAppearance.AppCompat.Small">
+        <item name="android:textColor">?android:textColorSecondary</item>
+    </style>
+
+    <style name="samay_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:padding">@dimen/samay_padding</item>
+        <item name="android:textSize">@dimen/samay_font_size</item>
+        <item name="android:layout_gravity">left</item>
+
+    </style>
+
+    <style name="description_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/description_padding</item>
+        <item name="android:textSize">@dimen/description_font_size</item>
+        <item name="android:fontFamily">@font/roboto</item>
+
+    </style>
+
+</resources>

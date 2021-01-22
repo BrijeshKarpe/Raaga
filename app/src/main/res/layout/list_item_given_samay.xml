@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="bindingRaga1"
+            type="com.example.raaga.data.Raga" />
+        <variable
+            name="clickListener1"
+            type="com.example.raaga.raagas.RagasListener" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/horizontal_margin"
+        android:padding="@dimen/title_padding"
+        android:onClick="@{() -> clickListener1.onclick(bindingRaga1)}"
+        android:background="@color/secondaryLightColor">
+
+        <TextView
+            android:id="@+id/raga_name1"
+            style="@style/samay_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/thaat_name1"
+            app:layout_constraintStart_toEndOf="@+id/raga_number1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:text="@string/raga_name"
+            app:ragaName="@{bindingRaga1}"/>
+
+        <TextView
+            android:id="@+id/thaat_name1"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="4dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/raga_number1"
+            tools:text="@string/thaat_name"
+            app:thaatName="@{bindingRaga1}"/>
+
+        <ImageView
+            android:id="@+id/play_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="32dp"
+            android:contentDescription="@string/play"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_media_play"
+            app:playButton="@{bindingRaga1}"/>
+
+        <TextView
+            android:id="@+id/raga_number1"
+            style="@style/description_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/samay_number"
+            app:ragaNumber="@{bindingRaga1}"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

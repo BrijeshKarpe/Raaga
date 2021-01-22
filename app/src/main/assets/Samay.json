@@ -1,0 +1,881 @@
+{ "samayRagaList" : [{
+        "id" : "1",
+        "name" : "dawn",
+        "time_from" : "4 am",
+        "time_to" : "6 am",
+        "raga" : [
+            {
+                "sid" : "1",
+                "id" : "1",
+                "name" : "bhatiyar",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901550431-dasddasad-adsasda-090921_017.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "1",
+                "id" : "2",
+                "name" : "lalit",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567495-dsfscsdc-sdcsdcc-lalit-poorvi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "1",
+                "id" : "3",
+                "name" : "bhankar",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901550440-dasddasad-adsasda-bhankar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "2",
+        "name" : "early morning",
+        "time_from" : "6 am",
+        "time_to" : "8 am",
+        "raga" : [
+            {
+                "sid" : "2",
+                "id" : "1",
+                "name" : "bhairav",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901550449-dasddasad-adsasda-bhairav.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "2",
+                "id" : "2",
+                "name" : "ramkali",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901528108-ravindra-borhade-ramkali.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "2",
+                "id" : "3",
+                "name" : "jogia",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901553443-ravindra-borhade-jogia.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "2",
+                "id" : "4",
+                "name" : "kalingada",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901553419-ravindra-borhade-kalingada.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "2",
+                "id" : "5",
+                "name" : "gunkali",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901552147-dasddasad-adsasda-gunkali.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "3",
+        "name" : "morning",
+        "time_from" : "8 am",
+        "time_to" : "10 am",
+        "raga" : [
+            {
+                "sid" : "3",
+                "id" : "1",
+                "name" : "ahir bhairav",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901550503-dasddasad-adsasda-ahir-bhairav.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "2",
+                "name" : "komal rishabh asavari",
+                "thaat" : "bhairavi",
+                "audio" : "https://feeds.soundcloud.com/stream/901553368-ravindra-borhade-komal-rishabh-asavari.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "3",
+                "name" : "todi",
+                "thaat" : "todi",
+                "audio" : "https://feeds.soundcloud.com/stream/901527988-ravindra-borhade-todi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "4",
+                "name" : "vibhas",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901527967-ravindra-borhade-vibhas-marwa.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "5",
+                "name" : "nat bhairav",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901567432-dsfscsdc-sdcsdcc-nat-bhairav.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "6",
+                "name" : "gurjari todi",
+                "thaat" : "todi",
+                "audio" : "https://feeds.soundcloud.com/stream/901552144-dasddasad-adsasda-gurjari-todi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "7",
+                "name" : "hindol",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901553488-ravindra-borhade-hindol.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "8",
+                "name" : "lilavati",
+                "thaat" : "todi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567489-dsfscsdc-sdcsdcc-lilavati.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "3",
+                "id" : "9",
+                "name" : "vibhas",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901527973-ravindra-borhade-vibhas-bhairav.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "4",
+        "name" : "late morning",
+        "time_from" : "10 am",
+        "time_to" : "12 noon",
+        "raga" : [
+            {
+                "sid" : "4",
+                "id" : "1",
+                "name" : "bhairavi",
+                "thaat" : "bhairavi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550446-dasddasad-adsasda-bhairavi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "2",
+                "name" : "deshkar",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901550326-dasddasad-adsasda-deshkar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "3",
+                "name" : "alahiya bilawal",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901550497-dasddasad-adsasda-alahiya-bilawal.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "4",
+                "name" : "jaunpuri",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901553479-ravindra-borhade-jaunpuri.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "5",
+                "name" : "dev gandhar",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901550308-dasddasad-adsasda-dev-gandhar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "6",
+                "name" : "asavari",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901550491-dasddasad-adsasda-asavari.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "7",
+                "name" : "desi",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901550317-dasddasad-adsasda-desi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "8",
+                "name" : "bilaskhani todi",
+                "thaat" : "bhairavi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550386-dasddasad-adsasda-bilaskhani-todi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "9",
+                "name" : "bhupal todi",
+                "thaat" : "bhairavi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550410-dasddasad-adsasda-bhupal-todi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "4",
+                "id" : "10",
+                "name" : "lalit",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901567498-dsfscsdc-sdcsdcc-lalit.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "5",
+        "name" : "afternoon",
+        "time_from" : "12 noon",
+        "time_to" : "2 pm",
+        "raga" : [
+            {
+                "sid" : "5",
+                "id" : "1",
+                "name" : "brindavani sarang",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550371-dasddasad-adsasda-brindavani-sarang.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "5",
+                "id" : "2",
+                "name" : "shuddha sarang",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901528051-ravindra-borhade-shuddha-sarang.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "5",
+                "id" : "3",
+                "name" : "gaud sarang",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901550272-dasddasad-adsasda-gaud-sarang.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "6",
+        "name" : "late afternoon",
+        "time_from" : "2 pm",
+        "time_to" : "4 pm",
+        "raga" : [
+            {
+                "sid" : "6",
+                "id" : "1",
+                "name" : "bhimpalasi",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550422-dasddasad-adsasda-bhimpalasi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "7",
+        "name" : "dusk",
+        "time_from" : "4 pm",
+        "time_to" : "6 pm",
+        "raga" : [
+            {
+                "sid" : "7",
+                "id" : "1",
+                "name" : "marwa",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901567468-dsfscsdc-sdcsdcc-marwa.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "2",
+                "name" : "shree",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901528072-ravindra-borhade-shree.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "3",
+                "name" : "poorvi",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567375-dsfscsdc-sdcsdcc-poorvi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "4",
+                "name" : "barwa",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550476-dasddasad-adsasda-barwa.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "5",
+                "name" : "patdeep",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567390-dsfscsdc-sdcsdcc-patdeep.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "6",
+                "name" : "multani",
+                "thaat" : "todi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567444-dsfscsdc-sdcsdcc-multani.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "7",
+                "name" : "madhuvanti",
+                "thaat" : "todi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567480-dsfscsdc-sdcsdcc-madhuvanti.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "7",
+                "id" : "8",
+                "name" : "dhaani",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550299-dasddasad-adsasda-dhaani.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "8",
+        "name" : "evening",
+        "time_from" : "6 pm",
+        "time_to" : "8 pm",
+        "raga" : [
+            {
+                "sid" : "8",
+                "id" : "1",
+                "name" : "puriya",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901567363-dsfscsdc-sdcsdcc-puriya.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "2",
+                "name" : "puriya kalyan",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901534969-ravindra-borhade-puriya-kalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "3",
+                "name" : "puriya dhanashri",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567357-dsfscsdc-sdcsdcc-puriya-dhanashri.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "4",
+                "name" : "shuddha kalyan",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901528066-ravindra-borhade-shuddha-kalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "5",
+                "name" : "yaman",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901527958-ravindra-borhade-yaman.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "6",
+                "name" : "hameer",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901553503-ravindra-borhade-hameer.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "7",
+                "name" : "hamsadhwani",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901553497-ravindra-borhade-hamsadhwani.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "8",
+                "name" : "piloo",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567384-dsfscsdc-sdcsdcc-piloo.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "9",
+                "name" : "shyam kalyan",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901528048-ravindra-borhade-shyam-kalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "10",
+                "name" : "yaman kalyan",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901527955-ravindra-borhade-yaman-kalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "11",
+                "name" : "megh",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567459-dsfscsdc-sdcsdcc-megh.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "12",
+                "name" : "gauri",
+                "thaat" : "bhairav",
+                "audio" : "https://feeds.soundcloud.com/stream/901551487-dasddasad-adsasda-gauri.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "8",
+                "id" : "13",
+                "name" : "lakshmi kalyan",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567504-dsfscsdc-sdcsdcc-lakshmi-kalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "9",
+        "name" : "late evening",
+        "time_from" : "8 pm",
+        "time_to" : "10 pm",
+        "raga" : [
+            {
+                "sid" : "9",
+                "id" : "1",
+                "name" : "basant",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550452-dasddasad-adsasda-basant.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "2",
+                "name" : "mian malhar",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567453-dsfscsdc-sdcsdcc-mian-malhar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "3",
+                "name" : "tilak kamod",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901528009-ravindra-borhade-tilak-kamod.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "4",
+                "name" : "durga",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901550293-dasddasad-adsasda-durga.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "5",
+                "name" : "hemkalyan",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901553494-ravindra-borhade-hemkalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "6",
+                "name" : "nat bihag",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901567420-dsfscsdc-sdcsdcc-nat-bihag.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "7",
+                "name" : "bhupali",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901550401-dasddasad-adsasda-bhupali.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "8",
+                "name" : "kedar",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901553392-ravindra-borhade-kedar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "9",
+                "name" : "kamod",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901553416-ravindra-borhade-kamod.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "10",
+                "name" : "chhayant",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901550356-dasddasad-adsasda-chhayant.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "11",
+                "name" : "khamaj",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901553377-ravindra-borhade-khamaj.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "12",
+                "name" : "desh",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901550335-dasddasad-adsasda-desh.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "13",
+                "name" : "jayjaiwanti",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901530991-ravindra-borhade-jayjaiwanti.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "14",
+                "name" : "rageshri",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901528126-ravindra-borhade-rageshri.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "15",
+                "name" : "jog",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901553458-ravindra-borhade-jog.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "16",
+                "name" : "gaud malhar",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901550275-dasddasad-adsasda-gaud-malhar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "17",
+                "name" : "kafi",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901553437-ravindra-borhade-kafi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "18",
+                "name" : "ramdasi malhar",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901528111-ravindra-borhade-ramdasi-malhar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "19",
+                "name" : "bahar",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550479-dasddasad-adsasda-bahar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "20",
+                "name" : "gara",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901550284-dasddasad-adsasda-gara.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "21",
+                "name" : "surdasi malhar",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901528018-ravindra-borhade-surdasi-malhar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "22",
+                "name" : "nand",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901567438-dsfscsdc-sdcsdcc-nand.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "23",
+                "name" : "jhinjhoti",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901553464-ravindra-borhade-jhinjhoti.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "24",
+                "name" : "tilang",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901528003-ravindra-borhade-tilang.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "25",
+                "name" : "jog",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901553458-ravindra-borhade-jog.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "26",
+                "name" : "gorakh kalyan",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901552153-dasddasad-adsasda-gorakh-kalyan.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "27",
+                "name" : "sorat",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901528021-ravindra-borhade-sorat.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "28",
+                "name" : "chandni kedar",
+                "thaat" : "kalyan",
+                "audio" : "https://feeds.soundcloud.com/stream/901550362-dasddasad-adsasda-chandni-kedar.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "29",
+                "name" : "kalavati",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901553425-ravindra-borhade-kalavati.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "9",
+                "id" : "30",
+                "name" : "gawati",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901552159-dasddasad-adsasda-gawati.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "10",
+        "name" : "night",
+        "time_from" : "10 pm",
+        "time_to" : "12 midnight",
+        "raga" : [
+            {
+                "sid" : "10",
+                "id" : "1",
+                "name" : "bihag",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901550398-dasddasad-adsasda-bihag.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "2",
+                "name" : "shankara",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901528090-ravindra-borhade-shankara.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "3",
+                "name" : "bageshri",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550482-dasddasad-adsasda-bageshri.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "4",
+                "name" : "chandrakauns",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550359-dasddasad-adsasda-chandrakauns.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "5",
+                "name" : "kaushik dhwani",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901553401-ravindra-borhade-kaushik-dhwani.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "6",
+                "name" : "bihagada",
+                "thaat" : "bilawal",
+                "audio" : "https://feeds.soundcloud.com/stream/901550395-dasddasad-adsasda-bihagada.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "7",
+                "name" : "abhogi",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901550512-dasddasad-adsasda-abhogi.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "8",
+                "name" : "kaunsi kanhada",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901553410-ravindra-borhade-kaunsi-kanhada.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "9",
+                "name" : "nayaki kanhada",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567408-dsfscsdc-sdcsdcc-nayaki-kanhada.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "10",
+                "id" : "10",
+                "name" : "saraswati",
+                "thaat" : "khamaj",
+                "audio" : "https://feeds.soundcloud.com/stream/901528105-ravindra-borhade-saraswati.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "11",
+        "name" : "midnight",
+        "time_from" : "12 midnight",
+        "time_to" : "2 am",
+        "raga" : [
+            {
+                "sid" : "11",
+                "id" : "1",
+                "name" : "malkauns",
+                "thaat" : "bhairavi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567477-dsfscsdc-sdcsdcc-malkauns.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "11",
+                "id" : "2",
+                "name" : "darbari kanhada",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901550341-dasddasad-adsasda-darbari-kanhada.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "11",
+                "id" : "3",
+                "name" : "shahana",
+                "thaat" : "kafi",
+                "audio" : "https://feeds.soundcloud.com/stream/901528096-ravindra-borhade-shahana.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "11",
+                "id" : "4",
+                "name" : "adana",
+                "thaat" : "asavari",
+                "audio" : "https://feeds.soundcloud.com/stream/901550506-dasddasad-adsasda-adana.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    },
+    {
+        "id" : "12",
+        "name" : "pre dawn",
+        "time_from" : "2 am",
+        "time_to" : "4 am",
+        "raga" : [
+            {
+                "sid" : "12",
+                "id" : "1",
+                "name" : "sohini",
+                "thaat" : "marwa",
+                "audio" : "https://feeds.soundcloud.com/stream/901528033-ravindra-borhade-sohini.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            },
+            {
+                "sid" : "12",
+                "id" : "2",
+                "name" : "paraj",
+                "thaat" : "poorvi",
+                "audio" : "https://feeds.soundcloud.com/stream/901567399-dsfscsdc-sdcsdcc-paraj.mp3",
+                "playButton": "ic_play_arrow_black_24dp"
+            }
+        ]
+    }]
+ }
